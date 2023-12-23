@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <title>Avocadoz</title>
+    <link rel="icon" href="https://api.iconify.design/emojione/avocado.svg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+<body>
+    <div id="header">
+        <nav>
+            <div class="logo">
+                <iconify-icon icon="emojione-monotone:avocado" width="45"></iconify-icon>            
+                <a class="logo-name" href="index.html">Avocadoz</a>
+            </div>
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#performance">Performance</a></li>
+                <li><a href="#">Activities</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Front-End Developer</p>
+            <h1>Hi! I'm <span>Kasidit</span> Chaipech</h1>
+        </div>
+    </div>
+    <!----------------------------------------- Profile ------------------------------------------->
+    <div id="profile">
+        <div class="container">
+            <div class="row">
+                <div class="profile-img"><img src="pic/profile2.png"></div>
+                <div class="profile-detail">
+                    <h2>About <span>Me</span></h2>
+                    <p class="aboutme">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I'm a student of bachelor of Information Science Program in Digital Content and Media, Walailak University. I have performances in graphics & programming. But I still need to learn more and develop myself to be better.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>&nbsp;Motion Graphic & Video Editor</span></li>
+                            <li><span>&nbsp;Photography & Editor</span></li>
+                            <li><span>&nbsp;Adobe Photoshop, Illustrator, Lightroom Classic, Premiere Pro, After Effect</span></li>
+                            <li><span>&nbsp;Programing : HTML, CSS, JavaScript, Python, PHP</span></li>
+                            <li><span>&nbsp;Volunteer</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span class="year">2006 - 2014</span><br><span class="school">Tantiwatra School</span><br><p>Kindergarten-Elementary School</p></li>
+                            <li><span class="year">2015 - 2020</span><br><span class="school">Petcharik Demonstration School</span><br><p>Secondary School</p></li>
+                            <li><span class="year">2021 - Present</span><br><span class="school">Walailak University</span><br><p>Digital Content and Media,School of Information Science</p></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="hobbies">
+                        <ul>
+                            <li><span>Editing video</span></li>
+                            <li><span>Playing electric guitar</span></li>
+                            <li><span>Web Programing</span></li>
+                            <li><span>Taking photo</span></li>
+                            <li><span>Playing futsal & Work out</span></li>
+                            <li><span>Reading Book</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="performances">
+        <div class="container">
+            <h2>Performances</h2>
+            <div class="contents">
+                <div class="box">
+                    <img src="" alt="">
+                </div>
+                <div class="box">
+                    <img src="" alt="">
+                </div>
+                <div class="box">
+                    <img src="" alt="">
+                </div>
+                <div class="box">
+                    <img src="" alt="">
+                </div>
+                <div class="box">
+                    <img src="" alt="">
+                </div>
+                <div class="box">
+                    <img src="" alt="">
+                </div>
+                <div class="box">
+                    <img src="" alt="">
+                </div>
+                <div class="box">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------------------------------ move to top button ---------------------------------->
+    <div class="arrowup"><a href="#header"></a></div>
+
+<!------------------------------------------ script ---------------------------------------->
+    <script src="profile.js"></script>
+    
+</body>
+</html>
